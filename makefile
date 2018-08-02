@@ -1,0 +1,2 @@
+Shell: Shell.c overkill.c jobs.c pipfunction.c cd-command.c echo-command.c pwd-command.c ls-command.c interrupts-command.c dirty-command.c pinfo-command.c trim.c setenv.c unsetenv.c kjobs.c
+	gcc  -ggdb -o Shell overkill.c jobs.c pipfunction.c Shell.c cd-command.c echo-command.c pinfo-command.c pwd-command.c ls-command.c interrupts-command.c dirty-command.c trim.c setenv.c unsetenv.c kjobs.c -I.
